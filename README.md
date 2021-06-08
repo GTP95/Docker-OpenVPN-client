@@ -22,5 +22,6 @@ docker build -t openvpn_client .
 
 ```BASH
 docker run --cap-add=NET_ADMIN --device /dev/net/tun --net openvpn_network --ip $ADDRESS openvpn_client
+```
 
 6. Configure your devices to use $ADDRESS as their default gateway

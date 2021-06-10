@@ -1,4 +1,4 @@
-# Docker image to run a OpenVPN client
+# Docker image to run a OpenVPN gateway
 
 ## Steps to build and run:
 
